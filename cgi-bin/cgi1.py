@@ -18,8 +18,8 @@ print("Content-Type: text/html")
 print()
 htmlText = '''
 <!DOCTYPE html>
-<html>
-    <head><meta charset="shift-jis" />
+<html lang="ja">
+    <head><meta charset="utf-8" />
      <meta http-equiv="Content-Style-Type" content="text/css">
      <link rel="stylesheet" type="text/css" href="福岡ソフトバンクホークス.css">
     </head>
