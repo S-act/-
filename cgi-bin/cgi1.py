@@ -27,7 +27,7 @@ htmlText = '''
     <h1>こんにちは</h1>
     <p>入力値の積は&nbsp; %s<br/></p>
     <hr/>
-    <a href="../読売ジャイアンツ.html">戻る</a>　
+    <a href="../index.html">戻る</a>　
 </body>
 </html>
 '''%(times(v1,v2)) # 入力値の積を%sの箇所に埋める
