@@ -1,18 +1,10 @@
-<!DOCTYPE html>
 <html>
-
-    <head><meta charset="utf-8" />
-        <meta http-equiv="Content-Style-Type" content="text/css">
-        <link rel="stylesheet" type="text/css" href="福岡ソフトバンクホークス.css">
-    </head>
-    <body>
-    <h1>入力値の積を表示します</h1>
-        <form action="/cgi-bin/cgi1.py" method="POST">
-            値１を入力してください
-            <input type="text" name="value1">
-            値２を入力してください
-            <input type="text" name="value2">
-            <input type="submit" name="submit" value="送信">
-        </form>
-    </body>
-    </html>
+ <body>
+  <form action="/cgi-bin/cgi1.py" method="POST">
+   <input type="text" name="foo">
+   <input type="text" name="bar">
+   <input type="submit">
+  </form>
+ </body>
+</html>
+cgi-bin/cgi1.py
