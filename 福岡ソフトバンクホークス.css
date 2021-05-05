@@ -3,6 +3,27 @@
 body{
 
     /*background-color:rgba(127, 240, 255, 0.83);*/
-    background-color: lightyellow;
+    background-color: royalblue;
     background-size: cover;
+}
+.ttle{
+    font-size: 7vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nyuuryoku{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputt{
+    font-size: 20px;
+}
+.moji{
+    margin-top: 5%;
+    font-size: 4vw;
 }
