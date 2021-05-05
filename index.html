@@ -1,10 +1,19 @@
+<!DOCTYPE html>
 <html>
- <body>
-  <form action="/cgi-bin/cgi1.py" method="POST">
-   <input type="text" name="foo">
-   <input type="text" name="bar">
-   <input type="submit">
-  </form>
- </body>
+<head><meta charset="utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <link rel="stylesheet" type="text/css" href="she.css">
+</head>
+<body>
+    <div class="ttle">四高祭をスムーズに！</div>
+    <div class="nyuuryoku">
+        <form action="/cgi-bin/cgi1.py" method="POST">
+            <div class="moji">店番号を入力してください</div><br>
+            <input class="inputt" type="text" name="mise"><br>
+            <div class="moji">整理券の番号を入力してください</div><br>
+            <input class="inputt" type="text" name="value1"><br>
+            <input type="submit" name="submit" value="入力完了">
+        </form>
+    </div>
+</body>
 </html>
-cgi-bin/cgi1.py
