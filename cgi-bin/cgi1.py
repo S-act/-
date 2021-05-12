@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import cgi
 form = cgi.FieldStorage() # cgiオブジェクト作成
@@ -18,7 +18,7 @@ files = None
 a = 0
 b = 0
 try:
-    file = open( "A1.txt","r")
+    file = open( str(v2)+".txt","r")
     files = file.readline().split("@")
     a = files[0]
     b = v2
@@ -34,9 +34,9 @@ print()
 htmlText = '''
 <!DOCTYPE html>
 <html>
-    <head><meta charset="shift-jis" />
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <link rel="stylesheet" type="text/css" href="she.css">
+    <head><meta charset="utf-8" />
+    <link rel="stylesheet" href="../html/she.css">
+    <script src="../html/jab.js"></script>
     </head>
 <body>
     <div class="ttle">四高祭をスムーズに！</div>
@@ -46,4 +46,4 @@ htmlText = '''
 </body>
 </html>
 '''%(b,a) # 入力値の積を%sの箇所に埋める
-print( htmlText.encode("cp932", 'ignore').decode('cp932') )
+print( htmlText.encode("utf-8", 'ignore').decode('utf-8') )
